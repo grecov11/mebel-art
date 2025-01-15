@@ -1,3 +1,4 @@
+
 export const navigation = [
     { name: 'Кухни', href: '/kuhni' },
     { name: 'Столы и стулья', href: '/stoli_i_stulya' },
@@ -11,4 +12,5 @@ export const navigation = [
     { name: 'Санузлы', href: '/sanuzli' },
     { name: 'Рабочие зоны', href: '/rabochie_zoni' },
     { name: 'Декоративные панели', href: '/decorativnie_paneli' },
-]
+];
+

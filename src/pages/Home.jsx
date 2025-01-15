@@ -1,5 +1,6 @@
 import React from 'react';
 import Aboutcontainer from "../Components/Aboutcontainer.jsx";
+import CollaborationSteps from "../Components/CollaborationSteps.jsx";
 import Trademarks from "../Components/Trademarks.jsx";
 import Slider from "../Components/Slider.jsx";
 
@@ -14,6 +15,10 @@ const Home = () => {
 
             <Aboutcontainer />
             <div className="clear-both"></div>
+
+            <CollaborationSteps />
+            <div className="clear-both"></div>
+
             <Trademarks />
             <div className="clear-both"></div>
 
