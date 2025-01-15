@@ -36,12 +36,12 @@ const Navbar1 = () => {
                             >
                                 <span className="absolute -inset-0.5" />
                                 <span className="sr-only">Open main menu</span>
-                                <Bars3Icon aria-hidden="true" className={classNames("block h-6 w-6", { hidden: isOpen })} />
+                                <Bars3Icon aria-hidden="true" className={classNames("block h-6 w-6 text-[#d1b37c] ", { hidden: isOpen })} />
                                 <XMarkIcon aria-hidden="true" className={classNames("hidden h-6 w-6", { block: isOpen })} />
                             </button>
-                            <span className="hidden md:block text-xl text-gray-100 px-5">Меню</span>
+                            <span className="hidden md:block text-xl text-[#d1b37c] px-5">Меню</span>
                         </div>
-                        <div className="flex flex-1 items-center justify-center">
+                        <div className="flex flex-1 items-center justify-center ml-[10%]">
                             {/* logo */}
                             <Link to="/" className="hidden md:block flex flex-shrink-0 items-center">
                                 <img
@@ -59,11 +59,13 @@ const Navbar1 = () => {
                             </Link>
                             {/* logo */}
                         </div>
-                        <button
-                            onClick={() => setIsModalOpen(true)}
-                            className="ml-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" >
-                            Связаться с нами
-                        </button>
+                        <div>
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className="ml-4 px-4 py-2 bg-[#101c18cc] text-[#d1b37c] rounded-md hover:bg-emerald-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" >
+                                Связаться с нами
+                            </button>
+                        </div>
                     </div>
                 </div>
                 {isOpen && (
