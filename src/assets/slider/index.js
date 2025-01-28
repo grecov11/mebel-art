@@ -3,13 +3,13 @@ import slide2 from './1_big_0.webp';
 import slide3 from './5_big_0.webp';
 import slide4 from './3_big_0.webp';
 
-const images = [
+export const images = [
     slide1,
     slide2,
     slide3,
     slide4,
-]
-const descritption = [
+];
+export const descritptions = [
     {
        title: "Кухни по индивидуальным\n\nразмерам",
        link: "/kuhni",
@@ -27,5 +27,5 @@ const descritption = [
        link: "/garderobnie",
     },
 ]
-export { images, descritption }
+
 
