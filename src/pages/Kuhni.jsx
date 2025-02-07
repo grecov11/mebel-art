@@ -1,11 +1,19 @@
 import React from 'react';
 import ImageGallery from '../Components/imagegallery/ImageGallery.jsx';
-import { garnitur01, garnitur02 } from "../assets/products/kuhni/index.js";
+import {garniturAnna} from "../assets/products/kuhni/1-garn-anna"
+import {garnAngelika} from "../assets/products/kuhni/2-garn-angelika"
+import {garnShely} from "../assets/products/kuhni/3-garn-sheyli"
+import {garnGerda} from "../assets/products/kuhni/4-garn-gerda"
+import {garnBernando} from "../assets/products/kuhni/20-garn-bernardo"
+
 
 const Kuhni = () => {
     const allGalleries = [
-        garnitur01,
-        garnitur02,
+        garniturAnna,
+        garnAngelika,
+        garnShely,
+        garnGerda,
+        garnBernando,
         // добавьте другие массивы здесь
     ];
 
