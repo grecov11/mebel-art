@@ -1,3 +1,9 @@
+import img1 from "./img1.webp"
+import img2 from "./img2.webp"
+import img3 from "./img3.webp"
+import img4 from "./img4.webp"
+import img5 from "./img5.webp"
+
 export const garnAnnabelle = [
     {
         img: img1,
@@ -23,3 +29,5 @@ export const garnAnnabelle = [
         img: img5,
         title: "КУХОННЫЙ ГАРНИТУР  АНАБЕЛЬ",
         description: "ФУРНИТУРА: Алюминиевая рамка «FLEX» Петля MGS с доводчиком"
+    },
+    ]

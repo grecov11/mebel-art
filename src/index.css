@@ -21,7 +21,7 @@
 }
 
 .nav-mobile{
-  @apply text-gray-300 max-w-44 hover:bg-gray-700 hover:text-white hover:scale-105 hover:text-center block rounded-md px-5 py-2 text-lg font-medium
+  @apply text-gray-300 max-w-44 hover:bg-gray-700 hover:text-white hover:scale-105  block rounded-md px-5 py-2 text-lg font-medium
 }
 
 .hero-link{
@@ -37,7 +37,7 @@
 }
 
 .nav-footer{
-  @apply text-gray-300 max-w-60 hover:bg-gray-700 hover:text-white hover:scale-105 hover:text-center block rounded-md px-5 py-1 text-base font-medium
+  @apply text-gray-300 max-w-60 hover:bg-gray-700 hover:text-white hover:scale-105  block rounded-md px-5 py-1 text-base font-medium
 }
 .section-container{
   @apply container max-w-screen-2xl mx-auto space-x-2 w-full h-full mt-20
