@@ -1,3 +1,9 @@
+import img1 from "./img1.webp"
+import img2 from "./img2.webp"
+import img3 from "./img3.webp"
+import img4 from "./img4.webp"
+import img5 from "./img5.webp"
+
 export const garnPersia = [
     {
         img: img1,
@@ -22,5 +28,6 @@ export const garnPersia = [
     {
         img: img5,
         title: "КУХОННЫЙ ГАРНИТУР ПЕРСИЯ",
-        description: "ФУРНИТУРА: BLUM LEGRABOX PURE внутренний «М»
-BLUM AMBIA-LINE лоток для столовых приборов"
+        description: "ФУРНИТУРА: BLUM LEGRABOX PURE внутренний «М» BLUM AMBIA-LINE лоток для столовых приборов"
+    },
+    ]

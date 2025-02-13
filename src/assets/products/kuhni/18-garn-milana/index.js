@@ -1,3 +1,9 @@
+import img1 from "./img1.webp"
+import img2 from "./img2.webp"
+import img3 from "./img3.webp"
+import img4 from "./img4.webp"
+import img5 from "./img5.webp"
+
 export const garnMilana = [
     {
         img: img1,
@@ -12,9 +18,9 @@ export const garnMilana = [
     {
         img: img3,
         title: "КУХОННЫЙ ГАРНИТУР  МИЛАНА",
-        description: "ПРОФИЛЬ ДЛЯ ФАСАДОВ:
-HH01 «SOFT TOUCH черный»
-HH02 «SOFT TOUCH черный»"
+        description:    `ПРОФИЛЬ ДЛЯ ФАСАДОВ:
+                        HH01 «SOFT TOUCH черный»
+                        HH02 «SOFT TOUCH черный»`
     },
     {
         img: img4,
@@ -25,3 +31,5 @@ HH02 «SOFT TOUCH черный»"
         img: img5,
         title: "КУХОННЫЙ ГАРНИТУР  МИЛАНА",
         description: "ФУРНИТУРА:BLUM HK TOP Раздвижная система «Dali»"
+    },
+    ]

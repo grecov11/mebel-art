@@ -10,6 +10,15 @@ import {garnBurito} from "../assets/products/kuhni/7-garn-burito"
 import {garnAmanto} from "../assets/products/kuhni/8-garn-amanto"
 import {garnLavida} from "../assets/products/kuhni/9-garn-lavido"
 import {garnWilde} from "../assets/products/kuhni/10-garn-uald"
+import {garnPersia} from "../assets/products/kuhni/11-garn-persia"
+import {garnMaris} from "../assets/products/kuhni/12-garn-maris"
+import {garnCharlie} from "../assets/products/kuhni/13-garn-charly"
+import {garnBernardo} from "../assets/products/kuhni/14-garn-bernardo"
+import {garnGabriel} from "../assets/products/kuhni/15-garn-gabriel/index.js";
+import {garnPerry} from "../assets/products/kuhni/16-garn-perri/index.js";
+import {garnCream} from "../assets/products/kuhni/17-garn-pcrem/index.js";
+import {garnMilana} from "../assets/products/kuhni/18-garn-milana/index.js";
+import {garnPlombir} from "../assets/products/kuhni/19-garn-plombir/index.js";
 import {garnBernando} from "../assets/products/kuhni/20-garn-bernardo"
 
 
@@ -19,13 +28,22 @@ const Kuhni = () => {
         garnAngelika,
         garnShely,
         garnGerda,
-        garnBernando,
         garnAnnabelle,
         garnLaura,
         garnBurito,
         garnAmanto,
         garnLavida,
         garnWilde,
+        garnPersia,
+        garnMaris,
+        garnCharlie,
+        garnBernardo,
+        garnGabriel,
+        garnPerry,
+        garnCream,
+        garnMilana,
+        garnPlombir,
+        garnBernando,
         // добавьте другие массивы здесь
     ];
 

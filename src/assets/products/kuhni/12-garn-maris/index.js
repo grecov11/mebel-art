@@ -1,3 +1,9 @@
+import img1 from "./img1.webp"
+import img2 from "./img2.webp"
+import img3 from "./img3.webp"
+import img4 from "./img4.webp"
+import img5 from "./img5.webp"
+
 export const garnMaris = [
     {
         img: img1,
@@ -7,8 +13,7 @@ export const garnMaris = [
     {
         img: img2,
         title: "КУХОННЫЙ ГАРНИТУР МАРИС",
-        description: "ФАСАД: Alvic «Syncron Royal Old Oak 02 Grey»
-Alvic «Zenit Cotto»"
+        description: "ФАСАД: Alvic «Syncron Royal Old Oak 02 Grey» Alvic «Zenit Cotto»"
     },
     {
         img: img3,
@@ -23,6 +28,8 @@ Alvic «Zenit Cotto»"
     {
         img: img5,
         title: "КУХОННЫЙ ГАРНИТУР МАРИС",
-        description: "ФУРНИТУРА: BLUM LEGRABOX PURE внутренний «С»
-BLUM LEGRABOX PURE внутренний «M»
-VAUTH-SAGEL полка для специй VS TOP SPICE"
+        description: `ФУРНИТУРА: BLUM LEGRABOX PURE внутренний «С»
+                        BLUM LEGRABOX PURE внутренний «M»
+                        VAUTH-SAGEL полка для специй VS TOP SPICE`
+    },
+    ]

@@ -1,3 +1,9 @@
+import img1 from "./img1.webp"
+import img2 from "./img2.webp"
+import img3 from "./img3.webp"
+import img4 from "./img4.webp"
+import img5 from "./img5.webp"
+
 export const garnBernardo = [
     {
         img: img1,
@@ -12,8 +18,7 @@ export const garnBernardo = [
     {
         img: img3,
         title: "КУХОННЫЙ ГАРНИТУР  БЕРНАРДО",
-        description: "ПРОФИЛЬ ДЛЯ ФАСАДОВ: HH01 «Хром»
-HH02 «Хром»"
+        description: "ПРОФИЛЬ ДЛЯ ФАСАДОВ: HH01 «Хром» HH02 «Хром»"
     },
     {
         img: img4,
@@ -23,5 +28,7 @@ HH02 «Хром»"
     {
         img: img5,
         title: "КУХОННЫЙ ГАРНИТУР  БЕРНАРДО",
-        description: "ФУРНИТУРА: Vauth-Sagel выдвижные корзины VS SUB Basket с креплением к фасаду
-Vauth-Sagel «волшебный уголок» для углового корпуса VS COR Fold"
+        description: `ФУРНИТУРА: Vauth-Sagel выдвижные корзины VS SUB Basket с креплением к фасаду
+                        Vauth-Sagel «волшебный уголок» для углового корпуса VS COR Fold`
+    },
+    ]
