@@ -1,5 +1,5 @@
 import React from 'react';
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { aboutcont1, aboutcont2 } from "../assets";
 import {Link} from "react-router-dom";
 
@@ -107,12 +107,16 @@ const Aboutcontainer = () => {
                         variants={textAnimation}
                         className="flex flex-row text-gray-100 mt-5 ">
                         <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
-                            <p className="text-4xl">1000+</p>
+                            <p className="text-4xl">
+                                1000+
+                            </p>
                             <p className="text-sm text-slate-400">Изготавливаем продукции ежедневно</p>
                         </div>
                         <div
                             className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
-                            <p className="text-4xl">400+</p>
+                            <p className="text-4xl">
+                                400+
+                            </p>
                             <p className="text-sm text-slate-400">Филиалов в различных городах России</p>
                         </div>
                         <div
