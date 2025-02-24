@@ -20,7 +20,7 @@ const ImageGallery = ({ imgSrc, images }) => {
                 alt="thumbnail"
                 onClick={() => setOpen(true)}
                 // style={{ cursor: 'pointer', width: '500px', height: '400px' }}
-                className="w-[330px] h-[180px] lg:w-[450px] lg:h-[240px]"
+                className="w-[330px] h-[180px] lg:w-[450px] lg:h-[240px] hover:scale-105"
             />
             {open && (
                 <Lightbox

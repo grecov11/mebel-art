@@ -108,21 +108,23 @@ const Aboutcontainer = () => {
                         className="flex flex-row text-gray-100 mt-5 ">
                         <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
                             <p className="text-4xl">
-                                1000+
+                                3 - 10 лет
                             </p>
-                            <p className="text-sm text-slate-400">Изготавливаем продукции ежедневно</p>
+                            <p className="text-sm text-slate-400">Гарантии на фурнитуру и материалы</p>
                         </div>
                         <div
                             className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
                             <p className="text-4xl">
-                                400+
+                                8 000 +
                             </p>
-                            <p className="text-sm text-slate-400">Филиалов в различных городах России</p>
+                            <p className="text-sm text-slate-400">Безграничные возможности. Больше 8000 вариантов исполнения</p>
                         </div>
                         <div
                             className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
-                            <p className="text-4xl">20+</p>
-                            <p className="text-sm text-slate-400">Лет на рынке производства мебели</p>
+                            <p className="text-4xl">
+                                100%
+                            </p>
+                            <p className="text-sm text-slate-400">Проверенные поставщики. Только оригинальная фурнитура и материалы</p>
                         </div>
                     </motion.div>
 
@@ -131,17 +133,17 @@ const Aboutcontainer = () => {
                         variants={textAnimation}
                         className="flex flex-row text-gray-100 mt-5 ">
                         <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
-                            <p className="text-4xl">1000+</p>
-                            <p className="text-sm text-slate-400">Изготавливаем продукции ежедневно</p>
+                            <p className="text-4xl">8 - 20 лет</p>
+                            <p className="text-sm text-slate-400">Наши сотрудники имеют стаж в мебельной индустрии</p>
                         </div>
                         <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
-                            <p className="text-4xl">400+</p>
-                            <p className="text-sm text-slate-400">Филиалов в различных городах России</p>
+                            <p className="text-4xl">100%</p>
+                            <p className="text-sm text-slate-400">Выдерживаем сроки, озвученные при заключении</p>
                         </div>
-                        <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
-                            <p className="text-4xl">20+</p>
-                            <p className="text-sm text-slate-400">Лет на рынке производства мебели</p>
-                        </div>
+                        {/*<div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">*/}
+                        {/*    <p className="text-4xl">20+</p>*/}
+                        {/*    <p className="text-sm text-slate-400">Лет на рынке производства мебели</p>*/}
+                        {/*</div>*/}
                     </motion.div>
 
                     <div className="inline-block text-center mt-5">

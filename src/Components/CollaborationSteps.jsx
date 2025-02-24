@@ -9,28 +9,28 @@ const steps = [
     icon: <PhoneIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-blue-500" />,
   },
   {
-    title: 'Выезд замерщика',
-    description: 'Наш специалист приедет к вам для проведения замеров.',
+    title: 'Разработка проекта и просчет',
+    description: 'Наш менеджер создаст и согласует с вами предварительный проект по вашим размерам и озвучит стоимость.',
     icon: <ClipboardIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-green-500" />,
   },
   {
-    title: 'На основании замеров заключаем договор',
-    description: 'Мы подготовим договор, основываясь на ваших требованиях.',
+    title: 'Выезд замерщика',
+    description: 'Специалист выезжает в любую точку Москвы и МО с ранее согласованными образцами.',
     icon: <DocumentIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-yellow-500" />,
   },
   {
-    title: 'Установка',
-    description: 'Наши мастера произведут установку в согласованные сроки.',
+    title: 'Заключение договора',
+    description: 'Мы подготавливаем документы на основании замера и проекта, вы ознакамливаетесь, подписываете и вносите предоплату.',
     icon: <WrenchIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-orange-500" />,
   },
   {
-    title: 'Приём работы',
-    description: 'Вы проверяете выполненные работы и даёте свои комментарии.',
+    title: 'Сборка и установка',
+    description: 'Наши квалифицированные мастера произведут сборку и установку в согласованные сроки.',
     icon: <CheckCircleIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-purple-500" />,
   },
   {
-    title: 'Оплата',
-    description: 'После завершения работ вы производите оплату.',
+    title: 'Прием работ',
+    description: 'Вы проверяете выполненные работы, вносите доплату и оставляете свою оценку у нас на сайте!.',
     icon: <CreditCardIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-red-500" />,
   },
 ]
