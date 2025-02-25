@@ -29,7 +29,7 @@ const Slider = () => {
                 className="w-full h-full object-cover duration-500"
             />
 
-            <div className="absolute bottom-56 left-11 md:left-16 z-20 block flex flex-col ">
+            <div className="absolute bottom-72 md:bottom-60 left-11 md:left-16 z-20 block flex flex-col ">
                 <h2 className="text-gray-100 block text-4xl font-semibold duration-500">
                     { descritptions[currentIndex].title}
                 </h2>
@@ -45,7 +45,7 @@ const Slider = () => {
             <span onClick={prevSlide} className="w-[30px] h-[30px]">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={5}
                      stroke="currentColor"
-                     className="hidden group-hover:block h-6 w-6 font-semibold text-white absolute top-[50%] -translate-x-0 translate-y-[-50%] left-10 z-30 text-2xl rounded-full bg-black/20 cursor-pointer">
+                     className="hidden group-hover:block h-6 w-6 font-semibold text-white absolute top-[45%] -translate-x-0 translate-y-[-50%] left-10 z-30 text-2xl rounded-full bg-black/20 cursor-pointer">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"/>
                 </svg>
             </span>
@@ -54,7 +54,7 @@ const Slider = () => {
             <span onClick={nextSlide} className="w-[30px] h-[30px]">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={5}
                      stroke="currentColor"
-                     className="hidden group-hover:block h-6 w-6 font-semibold text-white absolute top-[50%] -translate-x-0 translate-y-[-50%] right-10 z-30 text-2xl rounded-full bg-black/20 cursor-pointer">
+                     className="hidden group-hover:block h-6 w-6 font-semibold text-white absolute top-[45%] -translate-x-0 translate-y-[-50%] right-10 z-30 text-2xl rounded-full bg-black/20 cursor-pointer">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
                 </svg>
             </span>
