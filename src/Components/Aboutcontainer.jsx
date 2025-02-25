@@ -105,7 +105,7 @@ const Aboutcontainer = () => {
                     <motion.div
                         custom={5}
                         variants={textAnimation}
-                        className="flex flex-row text-gray-100 mt-5 ">
+                        className="flex flex-row grid grid-cols-3 gap-4 text-gray-100 mt-5 ">
                         <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
                             <p className="text-4xl">
                                 3 - 10 лет
@@ -131,7 +131,7 @@ const Aboutcontainer = () => {
                     <motion.div
                         custom={6}
                         variants={textAnimation}
-                        className="flex flex-row text-gray-100 mt-5 ">
+                        className="flex flex-row grid grid-cols-3 gap-4 text-gray-100 mt-5 ">
                         <div className="font-semibold rounded-lg h-full mr-2 p-2 bg-neutral-800">
                             <p className="text-4xl">8 - 20 лет</p>
                             <p className="text-sm text-slate-400">Наши сотрудники имеют стаж в мебельной индустрии</p>

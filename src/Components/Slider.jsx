@@ -29,8 +29,8 @@ const Slider = () => {
                 className="w-full h-full object-cover duration-500"
             />
 
-            <div className="absolute bottom-40 left-20 z-20 inline-block flex flex-col ">
-                <h2 className="text-gray-100 inline-block text-4xl font-semibold duration-500">
+            <div className="absolute bottom-56 left-11 md:left-16 z-20 block flex flex-col ">
+                <h2 className="text-gray-100 block text-4xl font-semibold duration-500">
                     { descritptions[currentIndex].title}
                 </h2>
                 <Link
