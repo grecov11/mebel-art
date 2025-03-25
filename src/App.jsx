@@ -8,6 +8,7 @@ import Layout from "./Components/Layout.jsx";
 import Kuhni from "./pages/Kuhni.jsx";
 import Krovati from "./pages/Krovati.jsx";
 import Garderobnie from "./pages/Garderobnie.jsx";
+import Gostinnie from "./pages/Gostinnie.jsx";
 import Prihojie from "./pages/Prihojie.jsx";
 import About from "./pages/About.jsx";
 import Stoli from "./pages/Stoli.jsx";
@@ -20,6 +21,8 @@ import RabochieZoni from "./pages/RabochieZoni.jsx";
 import DecorativniePaneli from "./pages/DecorativniePaneli.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
+import Spalni from "./pages/Spalni.jsx";
+
 
 
 function App() {
@@ -31,7 +34,9 @@ function App() {
                   <Route path="kuhni" element={<Kuhni />} />
                   <Route path="stoli_i_stulya" element={<Stoli />} />
                   <Route path="garderobnie" element={<Garderobnie />} />
+                  <Route path="gostinnie" element={<Gostinnie />} />
                   <Route path="prihojie" element={<Prihojie />} />
+                  <Route path="spalni" element={<Spalni />} />
                   <Route path="shkafi_kupe" element={<ShkafiKupe />} />
                   <Route path="shkafi_raspashnie" element={<ShkafiRaspashnie />} />
                   <Route path="krovati" element={<Krovati />} />
