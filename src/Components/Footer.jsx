@@ -1,16 +1,16 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { logo_bottom } from "../assets/index.js";
 import {Link, NavLink} from "react-router-dom";
-import {navigation} from "../constants/index.js";
+// import {navigation} from "../constants/index.js";
 
 
 const Footer = () => {
-  const [catalogOpen, setCatalogOpen] = useState(false);
+//   const [catalogOpen, setCatalogOpen] = useState(false);
   const setActiveMobile = ({ isActive }) => isActive ? 'active-footer' : 'nav-footer'
-
-  const toggleCatalog = () => {
-        setCatalogOpen(!catalogOpen);
-    };
+//
+//   const toggleCatalog = () => {
+//         setCatalogOpen(!catalogOpen);
+//     };
 
   return (
     <footer className="bg-stone-950  mx-auto w-full h-full relative text-white py-8">
@@ -28,17 +28,13 @@ const Footer = () => {
                     />
                 </Link>
               </li>
-              <li className="mt-5 hover:scale-105">
-                <a href="tel:88008001010" className="text-2xl font-semibold hover:underline ">8 800 800 10 10</a>
-              </li>
-              <li className="mt-5 hover:scale-105">
-                <a href="mailto:info@mebel-artgroup.ru" className="text-2xl font-semibold hover:underline ">info@mebel-artgroup.ru</a>
-              </li>
-              <li className="mt-5 hover:scale-105">
-                <span className="text-2xl font-semibold hover:underline ">Адрес: Если <br/>будет</span>
+              <li>
+                <h2 className="text-gray-300 max-w-60  hover:text-white hover:scale-105  block  px-5 py-1 text-base font-medium">Какой-нибудь текст</h2>
               </li>
             </ul>
-              <div className="mt-5 flex flex-row justify-center md:justify-normal ">
+
+
+            <div className="mt-5 flex flex-row justify-center md:justify-normal ">
 
                 <div className="hover:scale-105">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
@@ -61,48 +57,63 @@ const Footer = () => {
 
               </div>
 
-
           </div>
           <div className="mb-8 md:mb-0 text-center md:text-left">
-            <h3 className="text-2xl font-semibold mb-4">Продукция</h3>
+            <h3 className="text-2xl font-semibold mb-4">Контакты</h3>
 
-            <button
-                onClick={toggleCatalog}
-                className="text-gray-300 flex justify-between max-w-44 hover:bg-gray-700 hover:text-white hover:scale-105 hover:text-center block rounded-md px-5 py-2 text-lg font-medium whitespace-nowrap"
-            >
-                {catalogOpen ? (
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
-                        </svg>
-                    </span>
-
-                ) : (
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                        </svg>
-                    </span>
-
-                )}
-                <span className="p-x-8">Каталог</span>
-            </button>
-            {catalogOpen && (
-              <ul className="flex flex-col items-center md:items-start">
-
-              {navigation.map((item) => (
-
-                      <li key={item.href}>
-                        <NavLink
-                          to={item.href}
-                          className={setActiveMobile}
-                      >
-                          {item.name}
-                        </NavLink>
-                      </li>
-                  ))}
+            <ul>
+              <li className="mt-5 hover:scale-105">
+                <a href="tel:88008001010" className="text-xl font-semibold hover:underline ">8 800 800 10 10</a>
+              </li>
+              <li className="mt-5 hover:scale-105">
+                <a href="mailto:info@mebel-artgroup.ru" className="text-xl font-semibold hover:underline ">info@mebel-artgroup.ru</a>
+              </li>
+              <li className="mt-5 hover:scale-105">
+                <span className="text-xl font-semibold hover:underline ">Адрес: Если <br/>будет</span>
+              </li>
             </ul>
-            )}
+
+
+
+            {/*<button*/}
+            {/*    onClick={toggleCatalog}*/}
+            {/*    className="text-gray-300 flex justify-between max-w-44 hover:bg-gray-700 hover:text-white hover:scale-105 hover:text-center block rounded-md px-5 py-2 text-lg font-medium whitespace-nowrap"*/}
+            {/*>*/}
+            {/*    {catalogOpen ? (*/}
+            {/*        <span>*/}
+            {/*            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">*/}
+            {/*                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />*/}
+            {/*            </svg>*/}
+            {/*        </span>*/}
+
+            {/*    ) : (*/}
+            {/*        <span>*/}
+            {/*            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">*/}
+            {/*                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />*/}
+            {/*            </svg>*/}
+            {/*        </span>*/}
+
+            {/*    )}*/}
+            {/*    <span className="p-x-8">Каталог</span>*/}
+            {/*</button>*/}
+            {/*{catalogOpen && (*/}
+            {/*  <ul className="flex flex-col items-center md:items-start">*/}
+
+            {/*  {navigation.map((item) => (*/}
+
+            {/*          <li key={item.href}>*/}
+            {/*            <NavLink*/}
+            {/*              to={item.href}*/}
+            {/*              className={setActiveMobile}*/}
+            {/*          >*/}
+            {/*              {item.name}*/}
+            {/*            </NavLink>*/}
+            {/*          </li>*/}
+            {/*      ))}*/}
+            {/*</ul>*/}
+            {/*)}*/}
+
+
           </div>
           <div className="mb-8 md:mb-0 text-center md:text-left">
             <h3 className="text-2xl font-semibold mb-4">О компании</h3>
