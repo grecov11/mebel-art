@@ -1,10 +1,11 @@
+import React, {useState} from 'react';
 import { ChevronLeftIcon, ChevronRightIcon, UserCircleIcon } from '@heroicons/react/24/outline';
 import { StarIcon } from '@heroicons/react/24/solid';
 import { reviews } from "../assets/reviews/index.js";
 
 export default function ReviewSlider() {
-  const [activeIndex, setActiveIndex] = React.useState(0);
-  const reviewsPerSlide = window.innerWidth > 1200 ? 3 : 1;
+  const [activeIndex, setActiveIndex] = useState(0);
+  const reviewsPerSlide = (window.innerWidth > 768 || window.innerWidth < 1200  ) ? 2 : (window.innerWidth > 1200 ) ? 3 : 1 ;
 
   const handleSlide = (direction) => {
     const nextIndex =
