@@ -24,7 +24,7 @@ const Footer = () => {
                     <img
                         alt="Арт Груп - мебель по индивидуальному заказу"
                         src={logo_bottom}
-                        className="h-auto w-40"
+                        className="h-auto w-40 ml[20px]"
                     />
                 </Link>
               </li>
@@ -62,14 +62,14 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold mb-4">Контакты</h3>
 
             <ul>
-              <li className="mt-5 hover:scale-105">
-                <a href="tel:88008001010" className="text-xl font-semibold hover:underline ">8 800 800 10 10</a>
+              <li className="mt-2 hover:scale-105">
+                <a href="tel:88008001010" className="text-base font-semibold hover:underline ">8 800 800 10 10</a>
               </li>
-              <li className="mt-5 hover:scale-105">
-                <a href="mailto:info@mebel-artgroup.ru" className="text-xl font-semibold hover:underline ">info@mebel-artgroup.ru</a>
+              <li className="mt-2 hover:scale-105">
+                <a href="mailto:info@mebel-artgroup.ru" className="text-base font-semibold hover:underline ">info@mebel-artgroup.ru</a>
               </li>
-              <li className="mt-5 hover:scale-105">
-                <span className="text-xl font-semibold hover:underline ">Адрес: Если <br/>будет</span>
+              <li className="mt-2 hover:scale-105">
+                <span className="text-base font-semibold hover:underline ">Адрес: Если <br/>будет</span>
               </li>
             </ul>
 
