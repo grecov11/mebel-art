@@ -23,6 +23,14 @@ const Navbar1 = () => {
         setCatalogOpen(!catalogOpen);
     };
 
+    const handleScrollToBottom = () => {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+      setIsOpen(!isOpen)
+    };
+
     return (
         <>
             <nav className="sticky top-0 z-50 bg-[#193229]/80">
@@ -113,6 +121,9 @@ const Navbar1 = () => {
                         </NavLink>
                         <NavLink to="/portfolio" className={setActiveMobile} onClick={handleLinkClick}>
                             Выполненные работы
+                        </NavLink>
+                        <NavLink to="#contacts" className="nav-mobile" onClick={handleScrollToBottom}>
+                          Контакты
                         </NavLink>
                     </div>
                 )}
