@@ -20,6 +20,7 @@ const Portfolio = () => {
         port6,
         port7,
         port8,
+        port9,
     ];
 
     return (
