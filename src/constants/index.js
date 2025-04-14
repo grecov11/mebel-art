@@ -6,7 +6,7 @@ export const navigation = [
     { name: 'Гостинные', href: '/gostinnie' },
     { name: 'Прихожие', href: '/prihojie' },
     { name: 'Спальни', href: '/spalni' },
-    // { name: 'Шкафы купе', href: '/shkafi_kupe' },
+    { name: 'Шкафы купе', href: '/shkafi_kupe' },
     { name: 'Шкафы распашные', href: '/shkafi_raspashnie' },
     { name: 'Кровати', href: '/krovati'},
     { name: 'Каркасные системы', href: '/karkasnie-systemi' },
