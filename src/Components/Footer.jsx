@@ -22,13 +22,13 @@ const Footer = () => {
 
             <ul className="flex flex-col items-center md:items-start">
               <li>
-                <Link to="/" className="flex flex-shrink-0 items-center">
+                <a href="/" className="flex flex-shrink-0 items-center">
                     <img
                         alt="Арт Груп - мебель по индивидуальному заказу"
                         src={logo_bottom}
                         className="h-auto w-40 ml[20px]"
                     />
-                </Link>
+                </a>
               </li>
               {/*<li>*/}
               {/*  <h2 className="text-gray-300 max-w-60  hover:text-white hover:scale-105  block  px-5 py-1 text-base font-medium">Какой-нибудь текст</h2>*/}
@@ -140,13 +140,13 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold mb-4">О компании</h3>
             <ul className="flex flex-col items-center md:items-start">
               <li>
-                <NavLink to="/about" className={setActiveMobile}>О компании</NavLink>
+                <a href="/about" className={setActiveMobile}>О компании</a>
               </li>
               <li>
-                <NavLink to="/portfolio" className={setActiveMobile}>Портфолио</NavLink>
+                <a href="/portfolio" className={setActiveMobile}>Портфолио</a>
               </li>
               <li>
-                <NavLink to="/privacy-policy" className={setActiveMobile}>Политика конфиденциальности</NavLink>
+                <a href="/privacy-policy" className={setActiveMobile}>Политика конфиденциальности</a>
               </li>
             </ul>
           </div>
