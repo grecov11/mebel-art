@@ -22,6 +22,7 @@ import DecorativniePaneli from "./pages/DecorativniePaneli.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 import Spalni from "./pages/Spalni.jsx";
+import KarkasnieSystemi from "./pages/KarkasnieSystemi.jsx";
 
 
 
@@ -42,6 +43,7 @@ function App() {
                   <Route path="krovati" element={<Krovati />} />
                   <Route path="matraci" element={<Matraci />} />
                   <Route path="detskie" element={<Detskie />} />
+                  <Route path="karkasnie-systemi" element={<KarkasnieSystemi />} />
                   <Route path="sanuzli" element={<Sanuzli />} />
                   <Route path="rabochie_zoni" element={<RabochieZoni />} />
                   <Route path="decorativnie_paneli" element={<DecorativniePaneli />} />
