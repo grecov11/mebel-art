@@ -1,7 +1,6 @@
 import React, {useMemo} from 'react'
 import { logo_bottom } from "../assets/index.js";
-import {Link, NavLink} from "react-router-dom";
-// import {navigation} from "../constants/index.js";
+
 
 
 const Footer = () => {
