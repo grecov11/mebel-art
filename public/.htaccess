@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Пропускаем запросы к реальным файлам
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Все остальные запросы направляем на index.html
+RewriteRule ^ index.html [QSA,L]
