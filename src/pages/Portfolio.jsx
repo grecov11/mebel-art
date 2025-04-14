@@ -8,6 +8,7 @@ import {port5} from "../assets/portfolio/port-5/index.js";
 import {port6} from "../assets/portfolio/port-6/index.js";
 import {port7} from "../assets/portfolio/port-7/index.js";
 import {port8} from "../assets/portfolio/port-8/index.js";
+import {port9} from "../assets/portfolio/port-9/index.js";
 
 const Portfolio = () => {
 
