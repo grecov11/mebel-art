@@ -5,18 +5,18 @@ export const spal08 = [
     {
         img: img1,
         title: "ШКАФ-КУПЕ СЕРИИ | LEONARDO",
-        description: `"Габариты: 3025х2560х600 (ШхВхГ)
+        description: `Габариты: 3025х2560х600 (ШхВхГ)
 Корпус: ЛДСП "Ясень черный"
 Фасад: МДФ, фреза
-Профиль: Leonardo "Золото""`
+Профиль: Leonardo "Золото"`
     },
     {
         img: img2,
         title: "КОМОД СЕРИИ | ADELTA COMFORT",
-        description: `"Габариты: 600х380х450 (ШхВхГ)
+        description: `Габариты: 600х380х450 (ШхВхГ)
 Корпус: ЛДСП "Ясень черный"
 Фасад: Alvic Zenit supermat "Basalto"
-Ручка: HDL02 "Золото""`
+Ручка: HDL02 "Золото"`
     },
     {
         img: img2,
