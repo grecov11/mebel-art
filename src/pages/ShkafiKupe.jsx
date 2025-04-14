@@ -6,6 +6,9 @@ import {spal12} from "../assets/products/spalni/5-ids-12/index.js";
 import {spal14} from "../assets/products/spalni/6-ids-14/index.js";
 import {spal24} from "../assets/products/spalni/9-ids-24/index.js";
 import {spal40} from "../assets/products/spalni/10-ids-40/index.js";
+import {prih003} from "../assets/products/prihojie/1-ids-003/index.js";
+import {prih008} from "../assets/products/prihojie/4-ids-008/index.js";
+import {prih012} from "../assets/products/prihojie/8-ids-012/index.js";
 
 const ShkafiKupe = () => {
     const allGalleries = [
@@ -14,6 +17,9 @@ const ShkafiKupe = () => {
         spal14,
         spal24,
         spal40,
+        prih003,
+        prih008,
+        prih012,
         // добавьте другие массивы здесь
     ];
 

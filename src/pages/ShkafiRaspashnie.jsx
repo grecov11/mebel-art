@@ -13,6 +13,10 @@ import {sh9} from "../assets/products/shkafi-raspashnie/9-sh-r-TWIST/index.js";
 import {sh10} from "../assets/products/shkafi-raspashnie/10-sh-r-TWIST/index.js";
 import {sh11} from "../assets/products/shkafi-raspashnie/11-sh-r-TWIST/index.js";
 import {sh12} from "../assets/products/shkafi-raspashnie/12-sh-r-TWIST/index.js";
+import {prih009} from "../assets/products/prihojie/5-ids-009/index.js";
+import {prih010} from "../assets/products/prihojie/6-ids-010/index.js";
+import {prih013} from "../assets/products/prihojie/9-ids-013/index.js";
+import {prih014} from "../assets/products/prihojie/10-ids-014/index.js";
 
 const ShkafiRaspashnie = () => {
     const allGalleries = [
@@ -27,7 +31,11 @@ const ShkafiRaspashnie = () => {
         sh9,
         sh10,
         sh11,
-        sh12
+        sh12,
+        prih009,
+        prih010,
+        prih013,
+        prih014,
         // добавьте другие массивы здесь
     ];
 
