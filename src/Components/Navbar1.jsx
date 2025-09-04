@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import {logo2, logo_bottom} from '../assets';
 import { navigation } from "../constants/index.js";
-import Modal from './Modal';
+import ModalTel from './ModalTel';
 
 const setActive = ({ isActive }) => isActive ? 'active-link' : 'nav-link';
 const setActiveMobile = ({ isActive }) => isActive ? 'active-mobile' : 'nav-mobile';
@@ -128,7 +128,8 @@ const Navbar1 = () => {
                     </div>
                 )}
             </nav>
-            {isModalOpen && <Modal onClose={() => setIsModalOpen(false)} />}
+            {isModalOpen && <ModalTel onClose={() => setIsModalOpen(false)} />}
+
         </>
     );
 };
