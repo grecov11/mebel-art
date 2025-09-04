@@ -1,6 +1,6 @@
 import React from 'react';
 import { PhoneIcon, ClipboardIcon, DocumentIcon, WrenchIcon, CheckCircleIcon, CreditCardIcon } from '@heroicons/react/24/outline';
-
+import { motion } from 'framer-motion';
 
 const steps = [
   {
@@ -33,23 +33,45 @@ const steps = [
     description: 'Вы проверяете выполненные работы, вносите доплату и оставляете свою оценку у нас на сайте!.',
     icon: <CreditCardIcon strokeWidth={2} className="h-32 w-32 p-7 rounded-full bg-white text-red-500" />,
   },
-]
+];
+
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.3,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
 
 const CollaborationSteps = () => {
   return (
-    <section  className="container mx-auto p-6 text-gray-100">
+    <section className="container mx-auto p-6 text-gray-100">
       <h2 className="text-2xl font-bold text-center mb-6">Этапы сотрудничества с нами</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-3 gap-8"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{  amount: 0.3 }} // анимация срабатывает, когда 30% элемента в viewport
+      >
         {steps.map((step, index) => (
-          <div key={index} className="flex flex-col items-center shadow-md  p-4 m-2 w-full">
-            <div className="mb-4">
-              {step.icon}
-            </div>
+          <motion.div
+            key={index}
+            className="flex flex-col items-center shadow-md p-4 m-2 w-full"
+            variants={itemVariants}
+          >
+            <div className="mb-4">{step.icon}</div>
             <h3 className="text-lg text-center font-semibold mb-2">{step.title}</h3>
-            <p className=" text-center">{step.description}</p>
-          </div>
+            <p className="text-center">{step.description}</p>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
